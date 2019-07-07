@@ -72,7 +72,11 @@ The dingoo SDK is now installed.
 
 Linux users will need to do the following:
 
+- Install `make`.
+- Optional (recommended) install `gcc`, if gcc is not available linux_x86_elf2app.tar.bz2 which contains prebuilt elf2app and bin2h can be used instead.
+	- e.g. Debian/Ubuntu, issue: `sudo apt-get install gcc make`
 - Download mipsel-4.1.2-nopic.tar.bz2
+	- NOTE this is 32-bit and will require 32-bit runtime libraries on 64-bit operating systems
 - Install these compiler tools to an appropriate place.
 - Set environment variables:
 	- Set the environment variable MIPSTOOLS to the location of your mips compiler tools.
