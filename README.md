@@ -5,31 +5,26 @@ Dingoo SDK
 
 CONTENTS
 
-1 Installation
-
-	1.1 Windows Installation
-
-	1.2 Unix Installation
-
-	1.3 Updating
-
-	1.4 Building the documentation
-
-2 Compiling the sample programs
+ * 1 Installation
+ * 1.1 Windows Installation
+ * 1.2 Unix Installation
+ * 1.3 Updating
+ * 1.4 Building the documentation
+ * 2 Compiling the sample programs
 
 
 
 
 
 
-1 - INSTALLATION
+## 1 - INSTALLATION
 
 Need:
 
   * compiler tool chain, available from http://code.google.com/p/dingoo-sdk/downloads/
   * dingoo native sdk, either from svn checkout or prebuilt from http://code.google.com/p/dingoo-sdk/downloads/
 
-1.1 - WINDOWS INSTALLATION
+### 1.1 - WINDOWS INSTALLATION
 
 Windows users will need to download the following files:
 
@@ -79,7 +74,7 @@ The dingoo SDK is now installed.
 
 
 
-1.2 - UNIX INSTALLATION
+### 1.2 - UNIX INSTALLATION
 
 Linux users will need to do the following:
 
@@ -130,7 +125,7 @@ The dingoo SDK is now installed.
 
 
 
-1.3 - Updating
+### 1.3 - Updating
 
 To update your current SDK, download the newest version and overwrite your current install,
 then type:
@@ -148,7 +143,7 @@ On the other hand if you want a complete installation including compiled samples
 
 
 
-1.4 - Building the documentation
+### 1.4 - Building the documentation
 
 To build the documentation, you need to run:
 
@@ -159,7 +154,7 @@ HTML and XML documentation is saved to $DINGOO_SDK/doc/html and $DINGOO_SDK/doc/
 
 
 
-2 - COMPILING THE SAMPLE PROGRAMS
+## 2 - COMPILING THE SAMPLE PROGRAMS
 
 Open up a bash/cygwin shell.
 
