@@ -1,7 +1,4 @@
-Dingoo SDK
-
-
-
+# Dingoo SDK
 
 CONTENTS
 
@@ -12,10 +9,7 @@ CONTENTS
  * 1.4 Building the documentation
  * 2 Compiling the sample programs
 
-
-
-
-
+-----------------------------------------------------------
 
 ## 1 - INSTALLATION
 
@@ -151,8 +145,7 @@ To build the documentation, you need to run:
 
 HTML and XML documentation is saved to $DINGOO_SDK/doc/html and $DINGOO_SDK/doc/xml, respectively. You can easily modify the Doxyfile to include other formats as you need them, but the HTML documentation is the most user-friendly, just open $DINGOO_SDK/doc/html/index.html in your web browser.
 
-
-
+-----------------------------------------------------------
 
 ## 2 - COMPILING THE SAMPLE PROGRAMS
 
