@@ -92,13 +92,13 @@ Linux users will need to do the following:
 
 	  Example (assuming compiler and SDK in current directory):
 
-		MIPSTOOLS=`pwd`/mipsel-4.1.2-nopic
-		export MIPSTOOLS
+			MIPSTOOLS=`pwd`/mipsel-4.1.2-nopic
+			export MIPSTOOLS
 
-		DINGOO_SDK=`pwd`/dingoo-sdk/dingoo_sdk
-		export DINGOO_SDK
+			DINGOO_SDK=`pwd`/dingoo-sdk/dingoo_sdk
+			export DINGOO_SDK
 
-		PATH="$PATH:$MIPSTOOLS/bin"
+			PATH="$PATH:$MIPSTOOLS/bin"
 
 - Type "cd $DINGOO_SDK && sh ./install"
 
