@@ -102,6 +102,30 @@ Linux users will need to do the following:
 
 - Type "cd $DINGOO_SDK && sh ./install"
 
+Cheat sheet installation, where `setup.sh` contains:
+
+	#!/bin/sh
+	# dot this file, don't execute it
+
+	MIPSTOOLS=`pwd`/mipsel-4.1.2-nopic
+	export MIPSTOOLS
+
+	DINGOO_SDK=`pwd`/dingoo-sdk/dingoo_sdk
+	export DINGOO_SDK
+
+	PATH="$PATH:$MIPSTOOLS/bin"
+
+Issue:
+
+	mkdir dingoo-sdk/
+	cd dingoo-sdk/
+
+	git clone https://github.com/flatmush/dingoo-sdk.git
+	tar -jxvf /download/path/mipsel-4.1.2-nopic.tar.bz2
+
+	. setup.sh
+	cd $DINGOO_SDK && sh ./install
+
 The dingoo SDK is now installed.
 
 
